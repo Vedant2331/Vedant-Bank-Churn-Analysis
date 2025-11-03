@@ -135,4 +135,5 @@ Create a requirements.txt file with the following:
 - openpyxl
 
 ## Power BI dashboard
-- 
+- <img width="1143" height="650" alt="Screenshot 2025-11-04 040242" src="https://github.com/user-attachments/assets/c4b8f2da-324d-4432-b49d-ba2c12080587" />
+
