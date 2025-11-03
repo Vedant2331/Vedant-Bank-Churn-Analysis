@@ -111,39 +111,28 @@ Streamlit App Preview
 ## Installation & Setup
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/bank-churn-analysis.git
-   cd bank-churn-analysis
-Install dependencies
-
-bash
-Copy code
+-<a href=https://github.com/Vedant2331/Vedant-Bank-Churn-Analysis>Bank-Churn-Analysis</a>
+2. **Install dependencies**
 pip install -r requirements.txt
-Run the Streamlit app
-
-bash
-Copy code
+3. **Run the Streamlit app**
 streamlit run app.py
-Access the app
 
-Open your browser and go to: http://localhost:8501
 
-Requirements
+**Requirements**
 Create a requirements.txt file with the following:
-
-nginx
-Copy code
-pandas
-numpy
-seaborn
-matplotlib
-plotly
-scikit-learn
-imbalanced-learn
-xgboost
-streamlit
-graphviz
-openpyxl
+- nginx
+- Copy code
+- pandas
+- numpy
+- seaborn
+- matplotlib
+- plotly
+- scikit-learn
+- imbalanced-learn
+- xgboost
+- streamlit
+- graphviz
+- openpyxl
 
 ## Power BI dashboard
 - 
