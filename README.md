@@ -1,6 +1,6 @@
 # Vedant-Bank-Churn-Analysis
 This project focuses on **analyzing customer churn in a bank** — identifying key factors that lead customers to leave the bank and building a **machine learning model** to predict churn probability.   By understanding churn behavior, banks can take proactive steps to improve customer retention and profitability.
-## 🎯 Objectives
+## Objectives
 - Perform **Exploratory Data Analysis (EDA)** to understand customer demographics and behavior.
 - Identify patterns and features contributing to customer churn.
 - Build and evaluate predictive models to forecast churn.
@@ -8,7 +8,7 @@ This project focuses on **analyzing customer churn in a bank** — identifying k
 
 ---
 
-## 📁 Dataset Information
+## Dataset Information
 - **Dataset Name:** `Churn_Modelling.csv`
 - **Source:** Kaggle / Open Source
 - **Rows:** 10,000  
@@ -29,7 +29,7 @@ This project focuses on **analyzing customer churn in a bank** — identifying k
 
 ---
 
-## 🧠 Machine Learning Workflow
+## Machine Learning Workflow
 
 ### 1. Data Preprocessing
 - Handled missing values and outliers.
@@ -64,7 +64,7 @@ Metrics used:
 
 ---
 
-## 🧩 Technologies Used
+## Technologies Used
 | Category | Tools / Libraries |
 |-----------|------------------|
 | Language | Python |
@@ -77,14 +77,14 @@ Metrics used:
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 - Older customers and those with **lower credit scores** have higher churn rates.  
 - Customers with **fewer bank products** or **inactive accounts** are more likely to leave.  
 - **France** showed a relatively higher churn percentage compared to other regions.
 
 ---
 
-## 🚀 Results
+## Results
 - **Best Model:** XGBoost Classifier  
 - **Training Accuracy:** ~86%  
 - **Testing Accuracy:** ~84%  
@@ -92,20 +92,23 @@ Metrics used:
 
 ---
 
-## 💡 Future Improvements
+## Future Improvements
 - Integrate **real-time prediction API** for live customer churn monitoring.
 - Implement **advanced feature selection** and **hyperparameter optimization**.
 - Incorporate **customer feedback sentiment analysis** for richer insights.
 
 ---
 
-## 📸 Project Demo
-Streamlit App Preview 👇  
-![Bank Churn Dashboard](demo_screenshot.png)
+## Project Demo
+Streamlit App Preview   
+<img width="1890" height="857" alt="Screenshot 2025-11-04 031639" src="https://github.com/user-attachments/assets/84d0d2d6-098a-4ce0-af1d-8d0a67d10cd9" />
+<img width="1876" height="893" alt="Screenshot 2025-11-04 031710" src="https://github.com/user-attachments/assets/1715cd90-5080-470f-9f17-fe97beefe9f0" />
+
+
 
 ---
 
-## 🧰 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
    ```bash
@@ -125,7 +128,7 @@ Access the app
 
 Open your browser and go to: http://localhost:8501
 
-📜 Requirements
+Requirements
 Create a requirements.txt file with the following:
 
 nginx
