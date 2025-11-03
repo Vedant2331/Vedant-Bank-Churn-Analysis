@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Age &le; 0.284<br/>gini = 0.5<br/>samples = 12712<br/>value = [6356, 6356]<br/>class = Not Exited>, fillcolor="#ffffff"] ;
+1 [label=<NumOfProducts &le; 0.334<br/>gini = 0.4<br/>samples = 5971<br/>value = [4322, 1649]<br/>class = Not Exited>, fillcolor="#efb185"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<NumOfProducts &le; 0.333<br/>gini = 0.371<br/>samples = 5705<br/>value = [4301, 1404]<br/>class = Not Exited>, fillcolor="#edaa7a"] ;
+1 -> 2 ;
+3 [label=<gini = 0.472<br/>samples = 3164<br/>value = [1957.0, 1207.0]<br/>class = Not Exited>, fillcolor="#f5cfb3"] ;
+2 -> 3 ;
+4 [label=<gini = 0.143<br/>samples = 2541<br/>value = [2344, 197]<br/>class = Not Exited>, fillcolor="#e78c4a"] ;
+2 -> 4 ;
+5 [label=<Balance &le; 0.003<br/>gini = 0.145<br/>samples = 266<br/>value = [21, 245]<br/>class = Exited>, fillcolor="#4aa5e7"] ;
+1 -> 5 ;
+6 [label=<gini = 0.402<br/>samples = 61<br/>value = [17, 44]<br/>class = Exited>, fillcolor="#86c3ef"] ;
+5 -> 6 ;
+7 [label=<gini = 0.038<br/>samples = 205<br/>value = [4, 201]<br/>class = Exited>, fillcolor="#3d9fe6"] ;
+5 -> 7 ;
+8 [label=<NumOfProducts &le; 0.333<br/>gini = 0.421<br/>samples = 6741<br/>value = [2034, 4707]<br/>class = Exited>, fillcolor="#8fc7f0"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<IsActiveMember_1 &le; 0.5<br/>gini = 0.334<br/>samples = 4519<br/>value = [958, 3561]<br/>class = Exited>, fillcolor="#6eb7ec"] ;
+8 -> 9 ;
+10 [label=<gini = 0.224<br/>samples = 2705<br/>value = [348, 2357]<br/>class = Exited>, fillcolor="#56abe9"] ;
+9 -> 10 ;
+11 [label=<gini = 0.446<br/>samples = 1814<br/>value = [610, 1204]<br/>class = Exited>, fillcolor="#9dcff2"] ;
+9 -> 11 ;
+12 [label=<NumOfProducts &le; 0.333<br/>gini = 0.5<br/>samples = 2222<br/>value = [1076, 1146]<br/>class = Exited>, fillcolor="#f3f9fd"] ;
+8 -> 12 ;
+13 [label=<gini = 0.418<br/>samples = 1517<br/>value = [1065, 452]<br/>class = Not Exited>, fillcolor="#f0b68d"] ;
+12 -> 13 ;
+14 [label=<gini = 0.031<br/>samples = 705<br/>value = [11, 694]<br/>class = Exited>, fillcolor="#3c9fe5"] ;
+12 -> 14 ;
+}
