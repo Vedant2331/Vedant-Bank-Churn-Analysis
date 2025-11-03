@@ -9,7 +9,7 @@ This project focuses on **analyzing customer churn in a bank** — identifying k
 ---
 
 ## Dataset Information
-- **Dataset Name:** `Churn_Modelling.csv`
+- **Dataset Name:** `<a href=https://github.com/Vedant2331/Vedant-Bank-Churn-Analysis/blob/main/Churn_Modelling.csv>Churn_Modelling</a>`
 - **Source:** Kaggle / Open Source
 - **Rows:** 10,000  
 - **Columns:** 14  
@@ -144,3 +144,6 @@ xgboost
 streamlit
 graphviz
 openpyxl
+
+## Power BI dashboard
+- 
