@@ -33,7 +33,7 @@ default_values = [
 ]
 
 # Sidebar setup
-st.sidebar.image("Pic 1.png", use_container_width=True)  # Display Pic 1
+st.sidebar.image("Pic_1.png", use_container_width=True)  # Display Pic 1
 st.sidebar.header("User Inputs")
 
 # Collect user inputs
@@ -58,7 +58,7 @@ input_data_scaled = input_data.copy()
 input_data_scaled[scale_vars] = scaler.transform(input_data[scale_vars])
 
 # App Header
-st.image("Pic 2.png", use_container_width=True)  # Display Pic 2
+st.image("Pic_2.png", use_container_width=True)  # Display Pic 2
 st.title("Customer Churn Prediction")
 
 # Page Layout
@@ -98,3 +98,4 @@ with right_col:
         st.write(f"Predicted Probability: {probabilities[0]:.2%} (Retain)")
         # Display a clear output for the prediction
         st.markdown(f"### Output: **{prediction_label}**")
+
